@@ -1,0 +1,21 @@
+@import 'base/fonts';
+
+* {
+	font-family: 'BebasNeue', sans-serif;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+.container {
+	max-width: 1664px;
+	width: 86.66%;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+.br {
+	display: none;
+}
+
+@import 'blocks/title';
