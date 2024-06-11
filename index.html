@@ -8,7 +8,40 @@
 </head>
 <body>
 	<header class="header"></header>
-	
+	<section class="application">
+		<div class="container">
+			<div class="application_wrapper">
+				<div class="application_content">
+					<div class="title title_48">Не нашли подходящий памятник?</div>
+					<div class="title title_48">Уверены,он есть в  новом каталоге</div>
+					<form class="application_form" action="#">
+						<input type="hidden" name="theme" value="Заказ звонка">
+						<input type="hidden" name="utm_source" class="utm_source" value="">
+						<input type="hidden" name="utm_medium" class="utm_medium" value="">
+						<input type="hidden" name="utm_campaign" class="utm_campaign" value="">
+						<input type="hidden" name="utm_content" class="utm_content" value="">
+						<input type="hidden" name="utm_term" class="utm_term" value="">
+						<input type="text" name="phone" placeholder="+375 __ ___ __ __" class="application_form_input" required>
+						<label for="application_checkbox" class="application_label">
+							<input type="checkbox" name="checkbox" id="application_checkbox" class="application_checkbox" required checked>
+							<span class="application_view">
+								<div class="application_icon">
+									<img src="icons/policy.svg" alt="policy">
+								</div>
+							</span>
+							<div class="title title_16">Заполняя данную форму вы соглашаетесь с условиями обработки персональных данных и политикой конфиденциальности</div>
+						</label>
+						<button type="submit" class="button button_send">
+							<img src="icons/send.svg" alt="send">оставить заявку
+						</button>
+					</form>
+				</div>
+				<div class="application_image">
+					<img src="img/consult_image.png" alt="imageW">
+				</div>
+			</div>
+		</div>
+	</section>
 	<footer class="footer"></footer>
 	<script src="js/jquery-3.7.1.min.js"></script>
 	<script src="js/script.js"></script>
