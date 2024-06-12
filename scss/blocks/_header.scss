@@ -1,0 +1,59 @@
+.header {
+    &_upper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 86px;
+    }
+    &_logo, &_address, &_time, &_social, &_call {
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    &_logo {
+        gap: 31px;
+    }
+    &_address {
+        gap: 20px;
+    }
+    &_social {
+        gap: 14px;
+        &_links {
+            display: flex;
+            gap: 20px;
+        }
+    }
+    &_call {
+        align-items: start;
+        gap: 26px;
+        &_content {
+            display: flex;
+            justify-content: end;
+        }
+    }
+    &_lower {
+        &_center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 3;
+            gap: 3.64%;
+        }
+        &_right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 55px;
+            height: 55px;
+            border-radius: 100%;
+            box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 65px;
+            background: #fff;
+        }
+    }
+}
