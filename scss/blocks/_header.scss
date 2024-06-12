@@ -1,9 +1,13 @@
 .header {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
     &_upper {
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 86px;
+        background: #f3f3f3;
     }
     &_logo, &_address, &_time, &_social, &_call {
         display: flex;
