@@ -31,6 +31,23 @@
             display: flex;
             justify-content: end;
             text-align: end;
+            .under {
+                font-weight: 400;
+                font-size: 14px;
+                color: #c49e5e;
+            }
+        }
+    }
+    &_bottom {
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+        font-weight: 400;
+        span {
+            font-weight: 700;
+        }
+        .divider {
+            margin: 13px 0;
         }
     }
     .title {

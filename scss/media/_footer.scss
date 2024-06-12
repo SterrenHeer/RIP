@@ -1,0 +1,52 @@
+@media (max-width:1720px) {
+
+}
+@media (max-width:1600px) {
+
+}
+@media (max-width:1440px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	.footer {
+        margin-top: 77px;
+        padding: 16px 0;
+        &_wrapper {
+            flex-wrap: wrap;
+        }
+        &_address, &_call  {
+            margin-top: 25px;
+            width: 60%;
+        }
+        &_links {
+            width: 50%;
+        }
+        &_logo, &_target {
+            justify-content: center;
+            width: 100%;
+            img {
+                width: 47.75%;
+                max-width: 250px;
+            }
+        }
+        &_logo {
+            margin-bottom: 46px;
+            .title {
+                display: none;
+            }
+        }
+        &_target{
+            margin-top: 59px;
+            align-items: center;
+        }
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}
