@@ -33,9 +33,10 @@
         flex-direction: column;
         gap: 38px;
         &_input {
-            width: calc(100% - 72px);
+            width: calc(48.38% - 72px);
             height: 17px;
             padding: 24px 36px;
+            border: none;
             border-radius: 50px;
             font-weight: 400;
             font-size: 20px;
@@ -54,12 +55,17 @@
             }
         }
     }
+    &_inputs {
+        display: flex;
+        justify-content: space-between;
+    }
     &_checkbox {
         position: absolute;
         z-index: -1;
     }
     &_label {
         display: flex;
+        align-items: center;
         cursor: pointer;
     }
     &_view {

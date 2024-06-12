@@ -1,0 +1,62 @@
+@media (max-width:1720px) {
+
+}
+@media (max-width:1600px) {
+
+}
+@media (max-width:1440px) {
+    .application {
+        .button {
+            min-width: 57.82%;
+            width: auto;
+        }
+    }
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	.application {
+        padding-top: 50px;
+        &_wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+        &_image {
+            position: static;
+            width: 100%;
+        }
+        &_content {
+            padding: 32px 4% 0 4%;
+            width: 92%;
+        }
+        &_form {
+            margin-top: 22px;
+            gap: 14px;
+            &_input {
+                width: calc(100% - 44px);
+                height: 13px;
+                padding: 16px 22px;
+                font-size: 16px;
+                &::placeholder {
+                    font-size: 16px;
+                }
+            }
+        }
+        &_inputs {
+            flex-direction: column;
+            gap: 14px;
+        }
+        .button {
+            width: 100%;
+            max-width: none;
+            font-size: 24px;
+        }
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}
