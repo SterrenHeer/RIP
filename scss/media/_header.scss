@@ -1,0 +1,228 @@
+@media (max-width:1720px) {
+
+}
+@media (max-width:1600px) {
+    .header {
+        &_logo {
+            gap: 15px;
+            img {
+                width: 95px;
+            }
+        }
+        &_address {
+            gap: 12px;
+            img {
+                width: 42px;
+            }
+        }
+        &_social {
+            gap: 14px;
+            &_links {
+                gap: 10px;
+                img {
+                    width: 37px;
+                }
+            }
+        }
+        &_call {
+            gap: 13px;
+        }
+        .title_16 {
+            font-size: 14px;
+        }
+        .title_20 {
+            font-size: 18px;
+        }
+    }
+}
+@media (max-width:1440px) {
+    .header {
+        &_logo {
+            gap: 8px;
+            img {
+                width: 80px;
+            }
+        }
+        &_address {
+            gap: 10px;
+            img {
+                width: 35px;
+            }
+        }
+        &_social {
+            gap: 7px;
+            &_links {
+                gap: 10px;
+                img {
+                    width: 30px;
+                }
+            }
+        }
+        &_call {
+            gap: 7px;
+        }
+        &_lower {
+            &_right {
+                width: 42px;
+                height: 42px;
+                img {
+                    width: 26px;
+                    height: 26px;
+                }
+            }
+        }
+        .title_16 {
+            font-size: 12px;
+        }
+        .title_20 {
+            font-size: 16px;
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .header {
+        &_logo {
+            img {
+                width: 70px;
+            }
+        }
+        &_address {
+            gap: 5px;
+            img {
+                width: 30px;
+            }
+        }
+        &_social {
+            &_links {
+                img {
+                    width: 25px;
+                }
+            }
+        }
+        &_call {
+            gap: 7px;
+        }
+        .title_16 {
+            font-size: 10px;
+        }
+        .title_20 {
+            font-size: 14px;
+        }
+        .title_24 {
+            font-size: 16px;
+        }
+    }
+}
+@media (max-width: 992px) {
+	.header {
+        &_upper {
+            height: 65px;
+            .title_16 {
+                font-size: 14px;
+            }
+            .title_20 {
+                font-size: 20px;
+            }
+        }
+        &_address, &_time, &_social {
+            display: none;
+        }
+        &_logo {
+            img {
+                height: 52px;
+            }
+            .title {
+                display: none;
+            }
+        }
+        &_call {
+            gap: 8px;
+        }
+        &_lower {
+            &_center {
+                display: none;
+            }
+            &_right {
+                width: 29px;
+                height: 29px;
+                img {
+                    width: 17px;
+                    height: 18px;
+                }
+            }
+            .container {
+                height: 36px;
+            }
+        }
+        &_counter {
+            top: -1px;
+            right: -7px;
+            width: 14px;
+            height: 14px;
+            font-size: 12px;
+        }
+    }
+    .burger {
+        position: fixed;
+        z-index: 14;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(245,245,245, 0.5);
+        &_modal {
+            position: absolute;
+            top: 0;
+            left: 0;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 21px;
+            padding: 15px 23px;
+            width: calc(100vw - 46px);
+            max-height: calc(100vh - 30px);
+            box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+            background: #fff;
+        }
+        &_close {
+            position: absolute;
+            top: 15px;
+            right: 13px;
+            z-index: 5;
+            height: 15px;
+            cursor: pointer;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &_button {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            cursor: pointer;
+            &_text {
+                font-size: 26px;
+            }
+        }
+        &_bottom {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .header_address, .header_time, .header_social {
+            display: flex;
+        }
+        .header_address {
+            gap: 13px;
+        }
+        .header_time, .header_social {
+            padding-left: 43px;
+        }
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}
