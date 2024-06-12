@@ -4,6 +4,9 @@ $.get('header.html',function(response){
         $('.burger').toggleClass( "show" )
     });
 });
+$.get('footer.html',function(response){ 
+    $('.footer').html(response); 
+});
 
 let prevPos = window.pageYOffset;
 window.onscroll = function() {

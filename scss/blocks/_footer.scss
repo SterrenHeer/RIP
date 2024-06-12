@@ -1,0 +1,39 @@
+.footer {
+    margin-top: 87px;
+    padding: 17px 0;
+    background: #000;
+    &_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &_logo, &_address, &_call, &_links, &_target {
+        display: flex;
+        align-items: start;
+        flex-shrink: 0;
+    }
+    &_logo {
+        gap: 31px;
+        img {
+            width: 60px;
+        }
+    }
+    &_links, &_target {
+        flex-direction: column;
+        gap: 10px;
+    }
+    &_address {
+        gap: 8px;
+    }
+    &_call {
+        align-items: start;
+        gap: 15px;
+        &_content {
+            display: flex;
+            justify-content: end;
+            text-align: end;
+        }
+    }
+    .title {
+        color: #fff;
+    }
+}
