@@ -25,6 +25,9 @@
         &_links {
             display: flex;
             gap: 20px;
+            img:hover {
+                transform: scale(1.2);
+            }
         }
     }
     &_call {
@@ -44,6 +47,9 @@
             align-items: center;
             flex-grow: 3;
             gap: 3.64%;
+            a:hover {
+                color: #c49e5e;
+            }
         }
         &_right {
             position: relative;
