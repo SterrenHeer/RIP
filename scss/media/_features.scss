@@ -1,0 +1,39 @@
+@media (max-width:1720px) {
+
+}
+@media (max-width:1600px) {
+
+}
+@media (max-width:1440px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	.features {
+        padding-top: 50px;
+        &_wrapper {
+            gap: 12px 3.849%;
+            margin-top: 27px;
+        }
+        &_item {
+            gap: 14px;
+            padding: 11px 10px;
+            width: calc(48.07% - 20px);
+            img {
+                width: 20%;
+            }
+        }
+        .divider {
+            margin: 13px auto 0 auto;
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}
