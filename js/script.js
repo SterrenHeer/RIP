@@ -23,10 +23,11 @@ window.onscroll = function() {
 }
 
 if (document.querySelector('.newest_slide') != null) {
-    newest_hearts = document.querySelectorAll('.newest_favorite img')
-    newest_hearts.forEach(image => {
-        image.addEventListener('click', (e) => {
-            image.getAttribute('src') == 'icons/heart.svg' ? image.setAttribute('src', 'icons/heart_fill.svg') : image.setAttribute('src', 'icons/heart.svg')
+    newest_hearts = document.querySelectorAll('.newest_favorite')
+    newest_hearts.forEach(favorite => {
+        favorite.addEventListener('click', (e) => {
+            let img = favorite.querySelector('img');
+            img.getAttribute('src') == 'icons/heart.svg' ? img.setAttribute('src', 'icons/heart_fill.svg') : img.setAttribute('src', 'icons/heart.svg')
         });
     });
 }
