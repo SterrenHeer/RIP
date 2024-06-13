@@ -21,3 +21,26 @@ window.onscroll = function() {
     }
     prevPos = curPos;
 }
+
+if (document.querySelector('.newest_slide') != null) {
+    newest_hearts = document.querySelectorAll('.newest_favorite img')
+    newest_hearts.forEach(image => {
+        image.addEventListener('click', (e) => {
+            image.getAttribute('src') == 'icons/heart.svg' ? image.setAttribute('src', 'icons/heart_fill.svg') : image.setAttribute('src', 'icons/heart.svg')
+        });
+    });
+}
+
+if (document.querySelector('.newest_field') != null) {
+    slider({
+        containerSelector: '.newest_container',
+        slideSelector: '.newest_slide',
+        wrapperSelector: '.newest_wrapper',
+        fieldSelector: '.newest_field',
+        elementsPerPage: 3,
+        elementsPerPageMobile: 2,
+        indicatorsClass: `newest_indicators`,
+        columnGap: 30,
+        swipe: true,
+    });
+}
