@@ -1,0 +1,42 @@
+@media (max-width:1720px) {
+
+}
+@media (max-width:1600px) {
+
+}
+@media (max-width:1440px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	.promo {
+        padding-top: 111px;
+        margin-bottom: -9px;
+        &_wrapper {
+            gap: 14px;
+            .button {
+                width: 90%;
+                font-size: 24px;
+            }
+        }
+        &_images {
+            top: -9px;
+            img {
+                display: none;
+            }
+            .mobile {
+                display: block;
+                width: 100%;
+                max-width: none;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}

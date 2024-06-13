@@ -9,6 +9,9 @@
         .title {
             text-align: center;
         }
+        .title_70 {
+            max-width: 90%;
+        }
         .button {
             min-width: 21.71%;
         }
@@ -21,6 +24,9 @@
         justify-content: space-between;
         img {
             max-width: 50%;
+        }
+        .mobile {
+            display: none;
         }
     }
 }
