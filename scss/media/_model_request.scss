@@ -1,0 +1,51 @@
+@media (max-width:1720px) {
+
+}
+@media (max-width:1600px) {
+
+}
+@media (max-width:1440px) {
+    .model_request {
+        .button {
+            width: 80%;
+        }
+    }
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	.model_request {
+        padding-top: 50px;
+        &_wrapper {
+            flex-direction: column;
+            gap: 0;
+        }
+        &_image {
+            order: 1;
+            width: 100%;
+            min-height: 326px;
+        }
+        &_content {
+            padding: 28px 0;
+            min-height: 357px;
+            width: 100%;
+        }
+        &_form {
+            gap: 18px;
+            &_input {
+                height: 13px;
+                padding: 11px 0;
+            }
+        }
+        .button {
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}
