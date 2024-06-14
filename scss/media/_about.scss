@@ -1,0 +1,40 @@
+@media (max-width:1720px) {
+
+}
+@media (max-width:1600px) {
+
+}
+@media (max-width:1440px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	.about {
+        padding-top: 43px;
+        &_images {
+            flex-direction: column;
+            gap: 13px;
+            margin-top: 14px;
+            &_item {
+                width: 100%;
+            }
+        }
+        video {
+            margin-top: 22px;
+        }
+        .urban {
+            margin-top: 27px;
+            &:first-child {
+                margin-top: 22px;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}
