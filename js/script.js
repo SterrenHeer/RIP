@@ -1,7 +1,14 @@
 $.get('header.html',function(response){ 
     $('.header').html(response); 
     $('.burger_button, .burger_close, .burger a').click(() => {
-        $('.burger').toggleClass( "show" )
+        $('.burger').toggleClass('show');
+    });
+    $('.header_dropdown a').click(() => {
+        $('.header_dropdown :checked').prop('checked', false);
+    });
+    $(window).on( "resize", () => {
+        $('.burger').removeClass("show")
+        $('.header_dropdown :checked').prop('checked', false);
     });
 });
 $.get('footer.html',function(response){ 

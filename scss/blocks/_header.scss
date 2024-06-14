@@ -85,10 +85,91 @@
         font-size: 16px;
         color: #fff;
     }
+    &_dropdown {
+        position: relative;
+        & > label {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        & > div {
+            position: absolute;
+            top: 48px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            padding: 25px;
+            min-width: 211px;
+            box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+            background: #fff;
+        }
+        & > .internal {
+            position: static;
+            gap: 25px;
+            padding: 14px 25px;
+            min-width: none;
+            box-shadow: none;
+        }
+        & :checked ~ div {
+            display: flex;
+        }
+        & :checked ~ label span {
+            transform: rotate(-180deg);
+        }
+        span {
+            transition: all 0.8s;
+        }
+        input, & > div {
+            display: none;
+        }
+        label {
+            cursor: pointer;
+        }
+    }
 }
 .burger {
     display: none;
     &_button {
         display: none;
+    }
+    &_dropdown {
+        position: relative;
+        & > label {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        & > div {
+            display: flex;
+            flex-direction: column;
+            gap: 19px;
+            padding: 10px 40px;
+            background: #fff;
+        }
+        & > .internal {
+            gap: 10px;
+            padding: 10px 20px;
+            min-width: none;
+            box-shadow: none;
+        }
+        & :checked ~ div {
+            display: flex;
+        }
+        & :checked ~ label span {
+            transform: rotate(-180deg);
+            color: #c49e5e;
+        }
+        & :checked ~ label {
+            color: #c49e5e;
+        }
+        span {
+            transition: all 0.8s;
+        }
+        input, & > div {
+            display: none;
+        }
+        label {
+            cursor: pointer;
+        }
     }
 }
