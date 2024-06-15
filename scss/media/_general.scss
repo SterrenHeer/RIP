@@ -13,6 +13,7 @@
 @import "especial";
 @import "choice_help";
 @import "contacts";
+@import "our_works";
 @import "footer";
 
 .hide {
@@ -42,5 +43,8 @@
 				width: 40px;
 			}
 		}
+	}
+	.pagination {
+		margin-top: 41px;
 	}
 }

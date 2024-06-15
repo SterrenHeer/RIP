@@ -32,6 +32,41 @@ body {
 		background: rgba(196, 158, 94, 0.72);
 	}
 }
+.pagination {
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+	margin-top: 57px;
+	&_item, &_next, &_prev {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 32px;
+		height: 32px;
+		border: 1px solid #000;
+		border-radius: 4px;
+		font-family: 'Inter', sans-serif;
+		font-weight: 700;
+		font-size: 14px;
+		color: #212b36;
+		cursor: pointer;
+		user-select: none;
+	}
+	.active {
+		border: 1px solid #c49e5e;;
+		color: #c49e5e;
+	}
+	.lock {
+		background: rgba(#919eab, 0.5);
+		border: none;
+	}
+	.rotate {
+		img {
+			transform: rotate(180deg);
+			filter: contrast(0.5);
+		}
+	}
+}
 a {
 	text-decoration: none;
 }
@@ -54,5 +89,6 @@ a {
 @import "blocks/especial";
 @import "blocks/choice_help";
 @import "blocks/contacts";
+@import "blocks/our_works";
 @import "blocks/footer";
 @import 'media/general';

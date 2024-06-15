@@ -1,0 +1,38 @@
+@media (max-width:1720px) {
+
+}
+@media (max-width:1600px) {
+
+}
+@media (max-width:1440px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	.our_works {
+        padding-top: 30px;
+        &_wrapper {
+            gap: 12px 0;
+            margin-top: 22px;
+        }
+        &_item {
+            width: 48.07%;
+            &_wrapper {
+                &::after {
+                    top: 9px;
+                    right: 9px;
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}
