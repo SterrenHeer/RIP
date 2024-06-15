@@ -1,0 +1,52 @@
+@media (max-width:1720px) {
+
+}
+@media (max-width:1600px) {
+
+}
+@media (max-width:1440px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	.contacts {
+        padding-top: 30px;
+        &_wrapper {
+            flex-direction: column;
+            margin-top: 13px;
+        }
+        &_map {
+            width: 100%;
+        }
+        &_content {
+            padding: 25px 14px;
+            width: calc(100% - 28px);
+        }
+        &_line {
+            gap: 15px;
+            margin-top: 15px;
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+        &_socials {
+            gap: 15px;
+            margin-top: 25px;
+            img {
+                width: 25px;
+            }
+        }
+        .title_32 {
+            margin-top: 15px;
+        }
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}

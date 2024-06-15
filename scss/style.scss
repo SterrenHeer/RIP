@@ -25,6 +25,7 @@ body {
 	&_links {
 		display: flex;
 		justify-content: center;
+		align-items: center;
 		gap: 22px;
 		padding: 30px 0;
 		width: 100%;
@@ -52,5 +53,6 @@ a {
 @import "blocks/about";
 @import "blocks/especial";
 @import "blocks/choice_help";
+@import "blocks/contacts";
 @import "blocks/footer";
 @import 'media/general';

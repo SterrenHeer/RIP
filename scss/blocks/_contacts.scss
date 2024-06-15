@@ -1,0 +1,46 @@
+.contacts {
+    padding-top: 50px;
+    &_wrapper {
+        display: flex;
+        margin-top: 60px;
+    }
+    &_map {
+        width: 50%;
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &_content {
+        padding: 87px 66px;
+        width: calc(50% - 132px);
+        background: rgba(213, 185, 139, 0.22);
+    }
+    &_line {
+        display: flex;
+        gap: 29px;
+        margin-top: 34px;
+        &:first-child {
+            margin-top: 0;
+        }
+        img {
+            width: 29px;
+            height: 29px;
+        }
+    }
+    &_socials {
+        display: flex;
+        gap: 20px;
+        margin-top: 46px;
+        img:hover {
+            transform: scale(1.2);
+        }
+    }
+    .title_32 {
+        margin: 23px auto 0 auto;
+        max-width: 90%;
+    }
+    .title_32, .title_48 {
+        text-align: center;
+    }
+}

@@ -12,6 +12,7 @@
 @import "about";
 @import "especial";
 @import "choice_help";
+@import "contacts";
 @import "footer";
 
 .hide {
@@ -37,6 +38,9 @@
 		&_links {
 			gap: 13px;
 			padding: 12px 0;
+			img {
+				width: 40px;
+			}
 		}
 	}
 }
