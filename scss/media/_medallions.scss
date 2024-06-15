@@ -1,0 +1,51 @@
+@media (max-width:1720px) {
+
+}
+@media (max-width:1600px) {
+
+}
+@media (max-width:1440px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	.medallions {
+        padding-top: 30px;
+        &_tabs {
+            &_header {
+                flex-direction: column;
+                gap: 15px;
+                margin-top: 25px;
+            }
+            &_item {
+                padding: 15px 0;
+                width: 100%;
+            }
+            &_images {
+                gap: 3.2%;
+                margin-top: 16px;
+            }
+            &_image {
+                padding: 8px 7.05%;
+                width: calc(48.07% - 14.1% - 4px);
+            }
+            .title_32 {
+                max-width: 95%;
+            }
+        }
+        .title {
+            text-align: center;
+        }
+        .divider {
+            margin: 16px 0 15px 0;
+        }
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}

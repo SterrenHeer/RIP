@@ -39,6 +39,10 @@ if (document.querySelector('.newest_slide') != null) {
     });
 }
 
+if (document.querySelector('.medallions_tabs') != null) {
+    tabs('.medallions_tabs_item', '.medallions_tabs_content', '.medallions_tabs_header', 'medallions_tabs_active');
+}
+
 if (document.querySelector('.newest_field') != null) {
     slider({
         containerSelector: '.newest_container',
