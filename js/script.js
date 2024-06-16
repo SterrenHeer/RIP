@@ -92,3 +92,7 @@ if (document.querySelector('.catalog_item') != null) {
     catalog_hearts = document.querySelectorAll('.catalog_favorite');
     changeHeartColor(catalog_hearts);
 }
+if (document.querySelector('.product_markers') != null) {
+    product_hearts = document.querySelectorAll('.product_favorite');
+    changeHeartColor(product_hearts);
+}

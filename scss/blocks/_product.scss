@@ -16,7 +16,7 @@
         &_bottom {
             margin-top: 21px;
             display: flex;
-            gap: 3%;
+            justify-content: space-between;
         }
         &_item {
             position: relative;
@@ -120,9 +120,11 @@
         margin-top: 38px;
     }
     &_color {
-        width: 7.5%;
+        width: 12.5%;
         img {
-            width: 100%;
+            display: block;
+            margin: 0 auto;
+            width: 61%;
             transition: 0.8s;
             &:hover {
                 transform: scale(1.2);
