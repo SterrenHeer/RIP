@@ -14,6 +14,9 @@
         align-items: center;
         flex-shrink: 0;
     }
+    &_wrapper {
+        background: #f3f3f3;
+    }
     &_logo {
         gap: 31px;
     }
@@ -107,8 +110,11 @@
             position: static;
             gap: 25px;
             padding: 14px 25px;
-            min-width: none;
+            min-width: auto;
             box-shadow: none;
+        }
+        & > .catalog {
+            background: none;
         }
         & :checked ~ div {
             display: flex;
@@ -149,7 +155,7 @@
         & > .internal {
             gap: 10px;
             padding: 10px 20px;
-            min-width: none;
+            min-width: auto;
             box-shadow: none;
         }
         & :checked ~ div {

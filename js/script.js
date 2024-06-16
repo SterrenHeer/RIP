@@ -28,15 +28,22 @@ window.onscroll = function() {
     }
     prevPos = curPos;
 }
-
-if (document.querySelector('.newest_slide') != null) {
-    newest_hearts = document.querySelectorAll('.newest_favorite')
-    newest_hearts.forEach(favorite => {
+const changeHeartColor = (hearts) => {
+    hearts.forEach(favorite => {
         favorite.addEventListener('click', (e) => {
             let img = favorite.querySelector('img');
             img.getAttribute('src') == 'icons/heart.svg' ? img.setAttribute('src', 'icons/heart_fill.svg') : img.setAttribute('src', 'icons/heart.svg')
         });
     });
+}
+
+if (document.querySelector('.newest_slide') != null) {
+    newest_hearts = document.querySelectorAll('.newest_favorite');
+    changeHeartColor(newest_hearts);
+}
+if (document.querySelector('.catalog_item') != null) {
+    catalog_hearts = document.querySelectorAll('.catalog_favorite');
+    changeHeartColor(catalog_hearts);
 }
 
 if (document.querySelector('.medallions_tabs') != null) {
