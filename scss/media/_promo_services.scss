@@ -5,7 +5,11 @@
 
 }
 @media (max-width:1440px) {
-
+    .promo_services {
+        &_descr {
+            padding: 25px 18px;
+        }
+    }
 }
 @media (max-width: 1200px) {
 

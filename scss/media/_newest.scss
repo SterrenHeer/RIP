@@ -2,7 +2,16 @@
 
 }
 @media (max-width:1600px) {
-
+    .newest {
+        &_title {
+            img {
+                width: 100px;
+            }
+        } 
+        .divider {
+            width: 50%;
+        }
+    }
 }
 @media (max-width:1440px) {
 
@@ -49,13 +58,24 @@
         &_active {
             background: #c49e5e;
         }
+        &_title {
+            img {
+                display: none;
+            }
+        }
+        &_controls {
+            display: none;
+        }
         .divider {
-            margin: 13px auto 0 auto;
+            margin-top: 13px;
             width: 100%;
         }
         .button {
             font-size: 12px;
             width: 100%;
+        }
+        .title {
+            text-align: center;
         }
     }
 }

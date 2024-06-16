@@ -54,6 +54,8 @@ if (document.querySelector('.newest_field') != null) {
     slider({
         containerSelector: '.newest_container',
         slideSelector: '.newest_slide',
+        prevSlideSelector: '.newest_prev',
+        nextSlideSelector: '.newest_next',
         wrapperSelector: '.newest_wrapper',
         fieldSelector: '.newest_field',
         elementsPerPage: 3,

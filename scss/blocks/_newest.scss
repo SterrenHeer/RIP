@@ -59,11 +59,24 @@
             }
         }
     }
-    .title {
-        text-align: center;
+    &_header {
+        display: flex;
+        justify-content: space-between;
+    }
+    &_title {
+        display: flex;
+        gap: 40px;
+        white-space: nowrap;
+    }
+    &_controls {
+        display: flex;
+        gap: 20px;
     }
     .divider {
-        margin: 10px auto 0 auto;
+        margin-top: 10px;
         width: 41%;
+    }
+    .rotate {
+        transform: rotate(180deg);
     }
 }
