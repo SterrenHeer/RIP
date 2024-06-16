@@ -114,10 +114,37 @@
             font-family: 'BebasNeue', sans-serif;
         }
     }
+    &_colors {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 38px;
+    }
+    &_color {
+        width: 7.5%;
+        img {
+            width: 100%;
+            transition: 0.8s;
+            &:hover {
+                transform: scale(1.2);
+                transition: 0.8s;
+            }
+        }
+        .title_16 {
+            margin-top: 18px;
+            text-align: center;
+        }
+    }
     * {
         font-family: 'Gilroy', sans-serif;
     }
     .mobile {
         display: none;
+    }
+    .title_24 {
+        margin-top: 98px;
+        text-align: center;
+    }
+    .button {
+        flex-shrink: 0;
     }
 }

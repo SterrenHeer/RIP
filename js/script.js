@@ -50,13 +50,18 @@ const changeHeartColor = (hearts) => {
     });
 }
 
-if (document.querySelector('.newest_slide') != null) {
-    newest_hearts = document.querySelectorAll('.newest_favorite');
-    changeHeartColor(newest_hearts);
-}
-if (document.querySelector('.catalog_item') != null) {
-    catalog_hearts = document.querySelectorAll('.catalog_favorite');
-    changeHeartColor(catalog_hearts);
+if (document.querySelector('.product_images_bottom img') != null) {
+    let bottom_images = document.querySelectorAll('.product_images_bottom img');
+
+    bottom_images.forEach(image => {
+        image.addEventListener('click', (e) => {
+            let new_src = image.getAttribute('src');
+            let main_image = document.querySelector('.product_images_main img');
+            let old_src = main_image.getAttribute('src');
+            main_image.setAttribute('src', new_src)
+            image.setAttribute('src', old_src)
+        });
+    }); 
 }
 
 if (document.querySelector('.medallions_tabs') != null) {
@@ -77,4 +82,13 @@ if (document.querySelector('.newest_field') != null) {
         columnGap: 30,
         swipe: true,
     });
+}
+
+if (document.querySelector('.newest_slide') != null) {
+    newest_hearts = document.querySelectorAll('.newest_favorite');
+    changeHeartColor(newest_hearts);
+}
+if (document.querySelector('.catalog_item') != null) {
+    catalog_hearts = document.querySelectorAll('.catalog_favorite');
+    changeHeartColor(catalog_hearts);
 }
