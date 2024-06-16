@@ -15,6 +15,19 @@ $.get('footer.html',function(response){
     $('.footer').html(response); 
 });
 
+$(document).on('scroll', function() {
+    if (document.querySelector('.work_process_item') != null) {
+        if($(this).scrollTop() + window.innerHeight >= $('.work_process_wrapper').offset().top) {
+            let mobile = window.matchMedia('(max-width: 992px)').matches;
+            $('.work_process_item').each(function(i) {
+                if (!mobile || (mobile && i != 2 && i !=3)) {
+                    $(this).delay((i++) * 500).fadeTo(500, 1);
+                }
+            })
+        }
+    }
+  });
+
 let prevPos = window.pageYOffset;
 window.onscroll = function() {
     var curPos = window.pageYOffset;
