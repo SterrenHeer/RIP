@@ -1,0 +1,44 @@
+@media (max-width:1720px) {
+
+}
+@media (max-width:1600px) {
+
+}
+@media (max-width:1440px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	.interested {
+        padding-top: 66px;
+        &_wrapper {
+            flex-wrap: wrap;
+            gap: 15px 0;
+            margin-top: 36px;
+        }
+        &_item {
+            gap: 11px;
+            padding: 9px 11px;
+            width: calc(48.07% - 22px);
+        }
+        .divider {
+            margin: 13px auto 0 auto;
+            width: 100%;
+        }
+        .button {
+            font-size: 24px;
+        }
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+    .interested {
+        .button {
+            font-size: 16px;
+        }
+    }
+}

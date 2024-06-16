@@ -1,0 +1,29 @@
+.interested {
+    padding-top: 135px;
+    &_wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 66px;
+    }
+    &_item {
+        display: flex;
+        flex-direction: column;
+        gap: 29px;
+        padding: 14px;
+        width: calc(23.93% - 28px);
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+        background: #fff;
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+    .title {
+        text-align: center;
+    }
+    .divider {
+        margin: 10px auto 0 auto;
+        width: 41%;
+    }
+}
