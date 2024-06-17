@@ -1,6 +1,5 @@
 .services_promo {
-    padding: 127px 0 38px;
-    min-height: 480px;
+    padding: 127px 0 190px;
     background: url('../img/services/services_bg.png') no-repeat 50%/cover;
     .title {
         color: #fff;
@@ -81,5 +80,28 @@
     }
     .title_48 {
         color: #000;
+    }
+}
+.services_funeral {
+    margin-top: 127px;
+    padding: 112px 0 93px;
+    background: url('../img/services/services_bg_2.png') no-repeat 50%/cover;
+    .title {
+        color: #fff;
+    }
+    .title_48 {
+        color: #c49e5e;
+    }
+    .title_32 {
+        width: 51.95%;
+    }
+    .button {
+        margin-top: 34px;
+        padding: 0;
+        width: 33.39%;
+    }
+    .divider {
+        margin: 8px 0 34px 0;
+        width: 42.63%;
     }
 }

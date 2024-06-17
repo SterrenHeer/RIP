@@ -17,7 +17,6 @@
 @media (max-width: 992px) {
 	.services_promo {
         padding: 40px 0 38px;
-        min-height: 158px;
         .title_64 {
             margin-top: 7px;
             img {
@@ -26,7 +25,8 @@
         }
         .button {
             margin-top: 15px;
-            width: 100%;
+            width: 45%;
+            font-size: 24px;
         }
         .divider {
             margin: 7px 0 16px 0;
@@ -50,6 +50,22 @@
             }
         }
     }
+    .services_funeral {
+        margin-top: 67px;
+        padding: 29px 0 34px;
+        .title_32 {
+            width: 100%;
+        }
+        .button {
+            margin-top: 26px;
+            width: 50%;
+            font-size: 24px;
+        }
+        .divider {
+            margin: 8px 0 26px 0;
+            width: 100%;
+        }
+    }
 }
 @media (max-width: 768px) {
     .services {
@@ -61,5 +77,9 @@
     }
 }
 @media (max-width: 480px) {
-
+    .services_promo, .services_funeral {
+        .button {
+            width: 100%;
+        }
+    }
 }
