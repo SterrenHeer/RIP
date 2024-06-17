@@ -93,6 +93,16 @@ if (document.querySelector('.newest_field') != null) {
         swipe: true,
     });
 }
+if (document.querySelector('.our_works_slider_field') != null) {
+    slider({
+        containerSelector: '.our_works_slider',
+        slideSelector: '.our_works_slider_slide',
+        wrapperSelector: '.our_works_slider_wrapper',
+        fieldSelector: '.our_works_slider_field',
+        indicatorsClass: `our_works_slider_indicators`,
+        swipe: true,
+    });
+}
 
 if (document.querySelector('.newest_slide') != null) {
     newest_hearts = document.querySelectorAll('.newest_favorite');
