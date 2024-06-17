@@ -15,7 +15,7 @@ $.get('footer.html',function(response){
     $('.footer').html(response); 
 });
 
-$(document).on('scroll', function() {
+$(document).on('scroll DOMContentLoaded', function() {
     if (document.querySelector('.work_process_wrapper.base') != null) {
         if($(this).scrollTop() + window.innerHeight >= $('.work_process_wrapper.base').offset().top) {
             let mobile = window.matchMedia('(max-width: 992px)').matches;
