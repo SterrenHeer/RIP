@@ -10,7 +10,7 @@
     &_item {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         gap: 8px;
         padding: 68px 24px 0 24px;
         width: calc(33.33% - 48px);
@@ -24,6 +24,19 @@
         &:nth-child(3), &:nth-child(4) {
             box-shadow: none;
             background: none;
+        }
+    }
+    &_wrapper.wide {
+        width: 100%;
+        .work_process_item {
+            &:nth-child(4) {
+                background: url('../img/monuments/item_bg.png') no-repeat 50%/cover;
+                box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+            }
+            &:nth-child(7) {
+                box-shadow: none;
+                background: none;
+            }
         }
     }
     &_images {
@@ -40,6 +53,15 @@
             &:last-child {
                 max-width: 30.16%;
                 max-height: 919px;
+            }
+        }
+    }
+    &_images.wide {
+        justify-content: end;
+        img {
+            &:last-child {
+                max-width: 17.54%;
+                max-height: 829px;
             }
         }
     }
@@ -72,5 +94,8 @@
     }
     .title_200 {
         color: rgba(196, 158, 94, 0.72);
+    }
+    .scaleX {
+        transform: scaleX(-1);
     }
 }

@@ -28,6 +28,16 @@
                 margin-top: 11px;
             }
         }
+        &_wrapper.wide {
+            .work_process_item {
+                &:nth-child(4) {
+                    display: flex;
+                }
+                &:nth-child(7) {
+                    display: none;
+                }
+            }
+        }
         &_images {
             justify-content: end;
             img {
@@ -62,8 +72,24 @@
     }
 }
 @media (max-width: 768px) {
-
+    .work_process {
+        &_images.wide {
+            img {
+                &:last-child {
+                    max-width: 19.54%;
+                }
+            }
+        }
+    }
 }
 @media (max-width: 480px) {
-
+    .work_process {
+        &_images.wide {
+            img {
+                &:last-child {
+                    max-width: 28.54%;
+                }
+            }
+        }
+    }
 }
