@@ -105,3 +105,24 @@
         width: 42.63%;
     }
 }
+.services_products {
+    padding-top: 123px;
+    .services_wrapper {
+        .title {
+            color: #fff;
+        }
+    }
+    .services_item {
+        width: 30.78%;
+        &_wrapper {
+            padding: 38.08% 0;
+        }
+    }
+    .divider {
+        margin: 20px auto 50px auto;
+        width: 41%;
+    }
+    .title {
+        text-align: center;
+    }
+}

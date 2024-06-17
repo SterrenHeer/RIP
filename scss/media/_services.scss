@@ -66,6 +66,19 @@
             width: 100%;
         }
     }
+    .services_products {
+        padding-top: 50px;
+        .services_item {
+            width: 100%;
+            &_content {
+                height: 100%;
+            }
+        }
+        .divider {
+            margin: 10px auto 20px auto;
+            width: 100%;
+        }
+    }
 }
 @media (max-width: 768px) {
     .services {
