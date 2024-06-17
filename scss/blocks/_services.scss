@@ -7,6 +7,13 @@
     }
     .title_64 {
         margin-top: 41px;
+        img {
+            position: relative;
+            top: -48px;
+            right: -13px;
+            border-radius: 100%;
+            animation: shadow 2s ease infinite;
+        }
     }
     .button {
         margin-top: 24px;
@@ -15,6 +22,14 @@
     .divider {
         margin: 18px 0;
         width: 23.29%;
+    }
+    @keyframes shadow {
+        0% {
+            box-shadow: 0 0 0 0 rgba(#f0c777, 0.5);
+        }
+        100% {
+            box-shadow: 0 0 0 20px rgba(#f0c777, 0);
+        }
     }
 }
 .services {
