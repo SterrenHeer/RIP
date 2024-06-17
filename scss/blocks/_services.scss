@@ -126,3 +126,20 @@
         text-align: center;
     }
 }
+.services_guarantee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    margin-top: 166px;
+    padding: 30px;
+    background: rgba(196, 158, 94, 0.72);
+    img {
+        width: 14.85%;
+    }
+    .title {
+        max-width: 75%;
+        text-align: center;
+    }
+}

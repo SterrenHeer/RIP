@@ -79,6 +79,17 @@
             width: 100%;
         }
     }
+    .services_guarantee {
+        gap: 14px;
+        margin-top: 46px;
+        padding: 23px;
+        img {
+            width: 53.20%;
+        }
+        .title {
+            max-width: calc(100% - 26px);
+        }
+    }
 }
 @media (max-width: 768px) {
     .services {
@@ -93,6 +104,11 @@
     .services_promo, .services_funeral {
         .button {
             width: 100%;
+        }
+    }
+    .services_guarantee {
+        .title {
+            font-size: 20px;
         }
     }
 }
