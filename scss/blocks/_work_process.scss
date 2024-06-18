@@ -39,6 +39,16 @@
             }
         }
     }
+    &_wrapper.huge {
+        position: relative;
+        width: 100%;
+        .work_process_item {
+            &:nth-child(3), &:nth-child(4) {
+                background: url('../img/monuments/item_bg.png') no-repeat 50%/cover;
+                box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+            }
+        }
+    }
     &_images {
         position: absolute;
         bottom: 0;
@@ -58,6 +68,7 @@
     }
     &_images.wide {
         justify-content: end;
+        bottom: -182px;
         img {
             &:last-child {
                 max-width: 17.54%;
@@ -88,6 +99,13 @@
     }
     .mobile {
         display: none;
+    }
+    .dove {
+        position: absolute;
+        overflow: hidden;
+        top: -12%;
+        right: -7%;
+        width: 15%;
     }
     .title_48 {
         text-align: center;

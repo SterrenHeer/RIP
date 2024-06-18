@@ -38,6 +38,13 @@
                 }
             }
         }
+        &_wrapper.huge {
+            .work_process_item {
+                &:nth-child(3), &:nth-child(4), &:nth-child(7) {
+                    display: flex;
+                }
+            }
+        }
         &_images {
             justify-content: end;
             img {
@@ -48,6 +55,9 @@
                     max-height: 155px;
                 }
             }
+        }
+        &_images.wide {
+            bottom: -55px;
         }
         .pigeon {
             display: none;

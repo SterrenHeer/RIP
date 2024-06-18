@@ -36,6 +36,14 @@ $(document).on('scroll DOMContentLoaded', function() {
             })
         }
     }
+    if (document.querySelector('.work_process_wrapper.huge') != null) {
+        if($(this).scrollTop() + window.innerHeight >= $('.work_process_wrapper.huge').offset().top) {
+            let mobile = window.matchMedia('(max-width: 992px)').matches;
+            $('.work_process_item').each(function(i) {
+                $(this).delay((i++) * 500).fadeTo(500, 1);
+            })
+        }
+    }
   });
 
 let prevPos = window.pageYOffset;
