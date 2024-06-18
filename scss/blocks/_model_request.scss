@@ -7,7 +7,14 @@
     }
     &_image {
         width: 44.91%;
-        background: url('../img/model_request_image_bg.png') no-repeat 50%/cover;
+        video {
+            overflow: hidden;
+            display: block;
+            width: 106%;
+            height: 106%;
+            transform: translate(-6%, +6%);
+            border: none;
+        }
     }
     &_content {
         display: flex;

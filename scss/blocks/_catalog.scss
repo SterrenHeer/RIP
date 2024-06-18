@@ -95,3 +95,9 @@
         text-align: center;
     }
 }
+.filter {
+    display: none;
+    &_content {
+        display: none;
+    }
+}
