@@ -10,6 +10,7 @@
     &_item {
         width: 23.54%;
         transition: 0.5s;
+        cursor: pointer;
         &:nth-child(3) {
             width: 48.74%;
         }
