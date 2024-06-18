@@ -35,7 +35,7 @@
             width: 100%;
         }
         &_items {
-            gap: 22px 0;
+            gap: 22px 3.86%;
         }
         &_item {
             gap: 13px;
@@ -43,6 +43,17 @@
             &_wrapper {
                 padding: 12px 11px;
                 width: calc(100% - 22px);
+            }
+        }
+        &_favourites {
+            padding: 74px 0;
+            &_empty {
+                position: absolute;
+                top: 22px;
+                right: auto;
+                left: 50%;
+                transform: translate(-50%, 0);
+                white-space: nowrap;
             }
         }
         .button {
