@@ -90,6 +90,8 @@
     }
     .marker {
         position: absolute;
+        z-index: 2;
+        width: 1.2%;
         border-radius: 100%;
         animation: shadow 2s ease infinite;
         &:nth-child(14) {
@@ -116,6 +118,9 @@
             top: 52.55%;
             left: 44.91%;
         }
+    }
+    .mobile {
+        display: none;
     }
     @keyframes shadow {
         0% {
