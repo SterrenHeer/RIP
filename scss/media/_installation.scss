@@ -1,0 +1,42 @@
+@media (max-width:1720px) {
+
+}
+@media (max-width:1600px) {
+
+}
+@media (max-width:1440px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	.installation {
+        padding-top: 30px;
+        .title_32 {
+            margin-top: 22px;
+        }
+        img {
+            display: block;
+            margin: 20px auto 0 auto;
+            width: 100%;
+        }
+        &_rules {
+            margin-top: 82px;
+            padding: 30px 25px;
+            border-radius: 20px;
+            .title_48 {
+                text-align: center;
+            }
+            .title_32 {
+                margin-top: 13px;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}
