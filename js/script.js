@@ -16,6 +16,8 @@ $.get('footer.html',function(response){
     $('.footer').html(response); 
 });
 
+$('input[name="phone"]').mask("+375 (99) 999-99-99");
+
 if (document.querySelector('.catalog') != null) {
     $('.filter_button, .filter_close, .filter a').click(() => {
         $('.filter_content').toggleClass('flex');
@@ -100,6 +102,9 @@ $("form").submit(function (event) {
     event.preventDefault();
     let name = event.target.classList.value.slice(0, -5);
     let formData = new FormData(document.querySelector(`.${name}_form`));
+    $.get('thanks.html',function(response){ 
+        $('.thanks').html(response);
+    });
     sendPhp(name, formData);
 });
 
@@ -120,7 +125,7 @@ function sendPhp(name, data) {
             openModal('.thanks');
             setTimeout(function(){
                 closeModal('.thanks');
-            }, 4000)
+            }, 6000)
         }
     });
 }
