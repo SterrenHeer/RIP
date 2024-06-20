@@ -83,7 +83,7 @@
                         <div class="title title_20 semi-bold">В стоимость включены: <span class="normal">стела, тумба и цветник</span></div>
                         <div class="title title_40 semi-bold">1 390 руб./шт</div>
                         <div class="product_order">
-                            <button class="button">ЗАКАЗАТЬ ПАМЯТНИК</button>
+                            <button class="button" data-modal>ЗАКАЗАТЬ ПАМЯТНИК</button>
                             <div class="title title_20 semi-bold">Дополнительно оплачивается:<br><span class="medium">доставка, установка и художественное оформление</span></div>
                         </div>
                     </div>
@@ -240,6 +240,59 @@
 			</div>
         </div>
     </section>
+    <div class="consult">
+		<div class="consult_modal">
+			<div class="consult_close">
+                <img data-close src="icons/close.svg" alt="close">
+                <div data-close class="title title_20">ЗАКРЫТЬ</div>
+            </div>
+			<div class="consult_content">
+				<div class="title title_48">Заполните форму обратной связи</div>
+				<div class="title title_40">Введите ваш номер телефона и мы Вам перезвоним в течение 10 минут</div>
+				<form class="consult_form" action="#">
+                    <input type="text" name="name" placeholder="Введите имя" class="consult_form_input" required>
+					<input type="text" name="phone" placeholder="Введите телефон" class="consult_form_input" required>
+					<input type="hidden" name="theme" value="Форма обратной связи">
+					<input type="hidden" name="utm_city" class="utm_city" value="">
+					<input type="hidden" name="utm_source" class="utm_source" value="">
+					<input type="hidden" name="utm_medium" class="utm_medium" value="">
+					<input type="hidden" name="utm_campaign" class="utm_campaign" value="">
+					<input type="hidden" name="utm_content" class="utm_content" value="">
+					<input type="hidden" name="utm_term" class="utm_term" value="">
+					<button type="submit" class="button">Отправить</button>
+					<div class="consult_form_bottom">
+						<label for="consult_form_checkbox" class="consult_form_label title title_14 normal">
+							<input type="checkbox" name="checkbox" id="consult_form_checkbox" class="consult_form_checkbox" required checked>
+							<span class="consult_form_view">
+                                <img class="consult_form_icon" src="icons/policy.svg" alt="box">
+                            </span>
+							Вы соглашаетесь с условиями обработки персональных данных
+						</label>
+					</div>
+				</form>
+			</div>
+			<div class="consult_image">
+				<img src="img/consult_angel.png" alt="consult_angel">
+			</div>
+            <div class="consult_bottom"></div>
+		</div>
+	</div>
+	<div class="thanks">
+		<div class="thanks_modal">
+			<div class="thanks_close">
+                <img data-close src="icons/close.svg" alt="close">
+                <div data-close class="title title_20">ЗАКРЫТЬ</div>
+            </div>
+			<div class="thanks_content">
+                <div class="title title_48">Ваша заявка принята!</div>
+                <div class="title title_40">Cпасибо! Мы обязательно свяжемся с Вами в ближайшее время по указанным контактам.</div>
+			</div>
+			<div class="consult_image">
+				<img src="img/consult_angel.png" alt="consult_angel">
+			</div>
+            <div class="consult_bottom"></div>
+		</div>
+	</div>
 	<footer class="footer"></footer>
 	<script src="js/jquery-3.7.1.min.js"></script>
 	<script src="js/slider.js"></script>
