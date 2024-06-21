@@ -1,5 +1,6 @@
 .newest {
     padding-top: 101px;
+    background: url('../img/marble_bg.png') no-repeat 50%/cover;
     &_favorite {
         position: absolute;
         top: 21px;
@@ -23,6 +24,7 @@
     }
     &_field {
         display: flex;
+        padding-bottom: 20px;
     }
     &_indicators {
         display: none;

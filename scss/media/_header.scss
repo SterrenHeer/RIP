@@ -3,12 +3,6 @@
 }
 @media (max-width:1600px) {
     .header {
-        &_logo {
-            gap: 15px;
-            img {
-                width: 95px;
-            }
-        }
         &_address {
             gap: 12px;
             img {
@@ -16,12 +10,9 @@
             }
         }
         &_social {
-            gap: 14px;
-            &_links {
-                gap: 10px;
-                img {
-                    width: 37px;
-                }
+            gap: 10px;
+            img {
+                width: 37px;
             }
         }
         &_call {
@@ -39,9 +30,6 @@
     .header {
         &_logo {
             gap: 8px;
-            img {
-                width: 80px;
-            }
         }
         &_address {
             gap: 10px;
@@ -50,12 +38,9 @@
             }
         }
         &_social {
-            gap: 7px;
-            &_links {
-                gap: 10px;
-                img {
-                    width: 30px;
-                }
+            gap: 10px;
+            img {
+                width: 30px;
             }
         }
         &_call {
@@ -83,7 +68,7 @@
     .header {
         &_logo {
             img {
-                width: 70px;
+                width: 90px;
             }
         }
         &_address {
@@ -93,14 +78,15 @@
             }
         }
         &_social {
-            &_links {
-                img {
-                    width: 25px;
-                }
+            img {
+                width: 25px;
             }
         }
         &_call {
             gap: 7px;
+            img {
+                width: 19px;
+            }
         }
         .title_16 {
             font-size: 10px;
@@ -137,6 +123,12 @@
         }
         &_call {
             gap: 8px;
+            .title_24 {
+                font-size: 24px;
+            }
+            .title_16 {
+                font-size: 16px;
+            }
         }
         &_lower {
             &_center {

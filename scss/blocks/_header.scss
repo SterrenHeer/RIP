@@ -18,19 +18,16 @@
         background: #f3f3f3;
     }
     &_logo {
-        gap: 31px;
+        gap: 11px;
     }
     &_address {
         gap: 20px;
     }
     &_social {
-        gap: 14px;
-        &_links {
-            display: flex;
-            gap: 20px;
-            img:hover {
-                transform: scale(1.2);
-            }
+        display: flex;
+        gap: 20px;
+        img:hover {
+            transform: scale(1.2);
         }
     }
     &_call {
@@ -39,7 +36,6 @@
         &_content {
             display: flex;
             justify-content: end;
-            text-align: end;
         }
     }
     &_lower {
