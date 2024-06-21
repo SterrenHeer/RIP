@@ -8,12 +8,11 @@
     .choice_help {
         &_form {
             &_input {
-                width: calc(90% - 62px);
+                width: calc(70% - 62px);
             }
         }
         .button {
-            min-width: 39.13%;
-            width: auto;
+            width: 50%;
         }
     }
 }
@@ -54,7 +53,6 @@
         }
         .button {
             width: 100%;
-            max-width: none;
         }
     }
 }

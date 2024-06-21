@@ -63,7 +63,6 @@
             width: 100%;
             height: 100%;
             .button {
-                padding: 0;
                 width: 52.12%;
             }
         }
@@ -97,7 +96,6 @@
     }
     .button {
         margin-top: 34px;
-        padding: 0;
         width: 33.39%;
     }
     .divider {
@@ -116,6 +114,11 @@
         width: 30.78%;
         &_wrapper {
             padding: 38.08% 0;
+        }
+        &_content {
+            .button {
+                width: 75.97%;
+            }
         }
     }
     .divider {

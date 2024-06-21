@@ -5,7 +5,11 @@
 
 }
 @media (max-width:1440px) {
-
+    .interested {
+        .button {
+            font-size: 24px;
+        }
+    }
 }
 @media (max-width: 1200px) {
 
@@ -28,7 +32,8 @@
             width: 100%;
         }
         .button {
-            font-size: 24px;
+            width: 100%;
+            font-size: 20px;
         }
     }
 }
@@ -38,7 +43,12 @@
 @media (max-width: 480px) {
     .interested {
         .button {
+            height: 25px;
             font-size: 16px;
+			&::before, &::after {
+				background-image: url('../icons/button_left_card.svg');
+				width: 13px;
+			}
         }
     }
 }

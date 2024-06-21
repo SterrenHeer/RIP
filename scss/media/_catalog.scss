@@ -7,8 +7,7 @@
 @media (max-width:1440px) {
     .catalog {
         .button {
-            padding: 0;
-            width: 100%;
+            font-size: 27px;
         }
     }
 }
@@ -19,6 +18,9 @@
             right: 15px;
             width: 35px;
             height: 35px;
+        }
+        .button {
+            font-size: 24px;
         }
     }
 }
@@ -57,7 +59,7 @@
             }
         }
         .button {
-            font-size: 22px;
+            width: 100%;
         }
     }
     .filter {

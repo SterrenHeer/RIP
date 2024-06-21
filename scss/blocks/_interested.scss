@@ -26,4 +26,14 @@
         margin: 10px auto 0 auto;
         width: 41%;
     }
+    .button {
+        margin: 0 auto;
+        width: 78.91%;
+        padding: 0 24px;
+        height: 50px;
+        &::before, &::after {
+            background-image: url('../icons/button_left_m.svg');
+            width: 24px;
+        }
+    }
 }

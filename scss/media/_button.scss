@@ -5,14 +5,29 @@
 
 }
 @media (max-width:1440px) {
-
+	.button {
+		&_card {
+			padding: 0 24px;
+            height: 50px;
+            &::before, &::after {
+                background-image: url('../icons/button_left_m.svg');
+                width: 24px;
+            }
+		}
+	}
 }
 @media (max-width: 1200px) {
-
+	.button {
+		&_card {
+			font-size: 27px;
+		}
+	}
 }
 @media (max-width: 992px) {
 	.button {
+		padding: 0 24px;
 		height: 50px;
+		font-size: 24px;
 		&::before, &::after {
 			background-image: url('../icons/button_left_m.svg');
 			width: 24px;
@@ -28,12 +43,18 @@
 	}
 }
 @media (max-width: 768px) {
-
+	.button {
+		&_card {
+			font-size: 19px;
+		}
+	}
 }
 @media (max-width: 480px) {
 	.button {
+		padding: 0 12px;
 		&_card {
 			height: 25px;
+			font-size: 12px;
 			&::before, &::after {
 				background-image: url('../icons/button_left_card.svg');
 				width: 13px;
