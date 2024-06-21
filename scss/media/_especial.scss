@@ -5,7 +5,15 @@
 
 }
 @media (max-width:1440px) {
-
+    .especial {
+        padding-top: 65px;
+        &_wrapper {
+            padding-top: 35px;
+        }
+        &_goal {
+            margin-top: 75px;
+        }
+    }
 }
 @media (max-width: 1200px) {
 

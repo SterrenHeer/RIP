@@ -5,7 +5,20 @@
 
 }
 @media (max-width:1440px) {
-
+    .about {
+        &_images {
+            margin-top: 30px;
+        }
+        video {
+            margin-top: 30px;
+        }
+        .urban {
+            margin-top: 30px;
+            &:first-child {
+                margin-top: 35px;
+            }
+        }
+    }
 }
 @media (max-width: 1200px) {
 

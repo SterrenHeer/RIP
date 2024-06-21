@@ -5,7 +5,33 @@
 
 }
 @media (max-width:1440px) {
-
+    .medallions {
+        padding-top: 40px;
+        &_tabs {
+            &_header {
+                margin-top: 25px;
+            }
+            &_item {
+                padding: 15px 0;
+            }
+            &_images {
+                margin-top: 16px;
+            }
+            .divider {
+                margin: 16px 0 15px 0;
+            }
+        }
+        &_decoration {
+            &_images {
+                gap: 15px 1.68%;
+            }
+        }
+        &_backdrop {
+            &_images {
+                gap: 15px 2%;
+            }
+        }
+    }
 }
 @media (max-width: 1200px) {
 
@@ -17,15 +43,12 @@
             &_header {
                 flex-direction: column;
                 gap: 15px;
-                margin-top: 25px;
             }
             &_item {
-                padding: 15px 0;
                 width: 100%;
             }
             &_images {
                 gap: 3.2%;
-                margin-top: 16px;
             }
             &_image {
                 padding: 8px 7.05%;
@@ -55,7 +78,7 @@
         }
         &_backdrop {
             &_images {
-                gap: 28px 3.2%;
+                gap: 8px 3.2%;
             }
             &_image {
                 width: calc(43.07% - 10% - 4px);

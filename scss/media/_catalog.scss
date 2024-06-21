@@ -6,6 +6,10 @@
 }
 @media (max-width:1440px) {
     .catalog {
+        padding-top: 40px;
+        &_favourites {
+            padding: 90px 0;
+        }
         .button {
             font-size: 27px;
         }

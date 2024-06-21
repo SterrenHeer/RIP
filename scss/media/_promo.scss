@@ -5,7 +5,12 @@
 
 }
 @media (max-width:1440px) {
-
+    .promo {
+        margin-bottom: -199px;
+        &_wrapper {
+            gap: 20px;
+        }
+    }
 }
 @media (max-width: 1200px) {
 
@@ -13,7 +18,7 @@
 @media (max-width: 992px) {
 	.promo {
         padding-top: 111px;
-        margin-bottom: -9px;
+        margin-bottom: -29px;
         &_wrapper {
             gap: 14px;
             .button {

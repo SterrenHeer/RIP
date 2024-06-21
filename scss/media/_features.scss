@@ -5,7 +5,12 @@
 
 }
 @media (max-width:1440px) {
-
+    .features {
+        padding-top: 84px;
+        &_item {
+            padding: 20px 16px;
+        }
+    }
 }
 @media (max-width: 1200px) {
 

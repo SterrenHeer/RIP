@@ -5,7 +5,14 @@
 
 }
 @media (max-width:1440px) {
-
+    .work_process {
+        padding-top: 75px;
+        &_item {
+            .title_200 {
+                margin-top: 25px;
+            }
+        }
+    }
 }
 @media (max-width: 1200px) {
 

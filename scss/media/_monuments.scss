@@ -5,7 +5,12 @@
 
 }
 @media (max-width:1440px) {
-
+    .monuments {
+        &_wrapper {
+            gap: 22px 1.68%;
+            margin-top: 35px;
+        }
+    }
 }
 @media (max-width: 1200px) {
 
