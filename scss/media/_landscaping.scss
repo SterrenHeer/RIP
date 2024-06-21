@@ -7,6 +7,30 @@
 @media (max-width:1440px) {
     .landscaping {
         padding-top: 40px;
+        &_item {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            &:nth-child(2) {
+                top: -6.56%;
+            }
+            &:nth-child(3) {
+                top: 3.71%;
+            }
+            &:nth-child(4) {
+                top: 0.24%;
+            }
+            &:nth-child(5) {
+                top: 36.87%;
+            }
+            &:nth-child(6) {
+                top: 64.07%;
+            }
+            &:nth-child(7) {
+                top: 24.12%;
+            }
+        }
         .title_40 {
             margin: 30px auto 0 auto;
         }
