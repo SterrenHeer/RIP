@@ -1,4 +1,4 @@
-.consult, .thanks {
+.consult, .thanks, .detailed {
     position: relative;
     display: none;
     position: fixed;
@@ -125,10 +125,10 @@
         margin-top: 18px;
     }
 }
-.consult.show, .thanks.show {
+.consult.show, .thanks.show, .detailed.show {
     animation: fadeIn 1s;
 }
-.consult.hide, .thanks.hide {
+.consult.hide, .thanks.hide, .detailed.hide {
     animation: fadeOut 1s;
 }
 .thanks {
@@ -141,6 +141,23 @@
         }
         .title_24 {
             margin-top: 41px;
+        }
+    }
+}
+.detailed {
+    &_modal {
+        overflow-y: auto;
+        height: auto;
+        max-height: calc(95vh - 80px);
+    }
+    &_content {
+        padding: 40px;
+        width: 100%;
+        ul {
+            li {
+                margin-left: 30px;
+                list-style-type: circle;
+            }
         }
     }
 }

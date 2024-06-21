@@ -5,7 +5,7 @@
 
 }
 @media (max-width: 992px) {
-    .consult, .thanks {
+    .consult, .thanks, .detailed {
         &_modal {
             padding: 43px 18px 38px 18px;
             width: calc(100% - 36px);
@@ -47,6 +47,15 @@
     .thanks {
         .title {
             text-align: center;
+        }
+    }
+    .detailed {
+        &_modal {
+            height: auto;
+            max-height: calc(95vh - 80px);
+        }
+        &_content {
+            padding: 0;
         }
     }
 }
