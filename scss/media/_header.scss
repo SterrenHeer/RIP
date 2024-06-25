@@ -131,7 +131,7 @@
             }
         }
         &_lower {
-            &_center {
+            .container > ul {
                 display: none;
             }
             &_right {
