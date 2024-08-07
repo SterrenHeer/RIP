@@ -7,6 +7,17 @@ $.get('header.html',function(response){
     $('.header_dropdown a').click(() => {
         $('.header_dropdown :checked').prop('checked', false);
     });
+    document.addEventListener('click', outsideClickListener)
+    function outsideClickListener ({ target }) {
+        let dropdowns = []
+        document.querySelectorAll('.header_dropdown').forEach((element) => {
+            dropdowns.push(element)
+        })
+        let contains = dropdowns.some((element) => element.contains(target))
+        if (!contains) {
+            $('.header_dropdown :checked').prop('checked', false);
+        } 
+    }
     $(window).on( "resize", () => {
         $('.burger').removeClass("show")
         $('.header_dropdown :checked').prop('checked', false);
